@@ -125,7 +125,6 @@ footer {
     position: sticky;
     top: 100%;
     width: 100%;
-    /* z-index: 1; */
     background: black;
     color: white;
     padding: 60px;
