@@ -122,10 +122,10 @@ footer hr {
 
 } */
 footer {
-    position: fixed;
-    bottom: 0;
+    position: sticky;
+    top: 100%;
     width: 100%;
-    z-index: 1;
+    /* z-index: 1; */
     background: black;
     color: white;
     padding: 60px;
