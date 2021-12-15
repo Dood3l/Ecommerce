@@ -5,6 +5,7 @@
     width: 100%;
     height: calc(100vh - 152px);
     padding: 20px 100px;
+    margin-bottom: 10%;
 }
 .content-box {
     max-width: 850px;
@@ -14,12 +15,18 @@
     align-items: center;
     text-align: center;
     background-color: #fff;
-    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19)
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .left {
     height: 100%;
     background: url("kami.png") no-repeat center; 
     background-size: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 .right {
     padding: 25px 40px;
