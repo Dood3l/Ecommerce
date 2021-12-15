@@ -2,18 +2,9 @@
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 100%;
-    height: 100%;
+    height: calc(100vh - 152px);
     padding: 20px 100px;
-}
-.contact-container:after {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
 }
 .content-box {
     max-width: 850px;
@@ -27,7 +18,7 @@
 }
 .left {
     height: 100%;
-    background: url("slideImages/4.jpg") no-repeat center; 
+    background: url("kami.png") no-repeat center; 
     background-size: cover;
 }
 .right {
@@ -37,16 +28,6 @@ h2 {
     position: relative;
     padding-bottom: 10px;
     margin-bottom: 10px;
-}
-h2:after {
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    height: 4px;
-    width: 50px;
-    border-radius: 2px;
-    background-color: #2ecc71;
 }
 .field {
     width: 100%;
@@ -63,18 +44,21 @@ h2:after {
 }
 .field:focus {
     background-color: #fff;
-    border: 2px solid rgba(30, 85, 250, 0.47);
+    border: 2px solid black;
 }
 .contact-btn {
     width: 100%;
     padding: 0.5rem 1rem;
     font-size: 1.1rem;
-    background: #2ecc71;
+    background: black;
     outline: none;
     border: none;
 }
 .contact-btn:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+.contact-btn p {
+    color: white;
 }
 @media screen and (max-width:800px) {
     .content-box {
