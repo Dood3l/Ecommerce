@@ -52,6 +52,12 @@ nav ul li a {
     border-radius: 30px;
     border: 2px solid black;
 }
+.cart-btn {
+    border: none;
+}
+.cart-btn:hover {
+    background: none;
+}
 nav ul li a:hover, nav ul li a.active {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }

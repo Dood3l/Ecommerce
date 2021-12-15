@@ -64,7 +64,7 @@ h2 {
 .contact-btn:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
-.contact-btn p {
+.contact-btn {
     color: white;
 }
 @media screen and (max-width:800px) {
