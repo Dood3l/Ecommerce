@@ -44,13 +44,27 @@ nav ul li {
     nav li {
       margin: 0.8em 0;
     }
-  }
+}
+@media (max-width: 900px) {
+   
+    .navbar {
+      flex-direction: row;
+    }
+  
+    nav ul {
+      flex-direction: row;
+    }
+  
+    nav li {
+      margin: 0.8em 0;
+    }
+}
 nav ul li a {
     text-decoration: none;
     color: black;
     padding: 6px 15px;
     border-radius: 30px;
-    border: 2px solid black;
+    border: 2px solid #004faa;
 }
 .cart-btn {
     border: none;
@@ -59,7 +73,8 @@ nav ul li a {
     background: none;
 }
 nav ul li a:hover, nav ul li a.active {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background: #004faa;
+    color: white;
 }
 .logo {
     margin: 10px;
