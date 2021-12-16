@@ -58,5 +58,6 @@ label {
   }
 }
 .desc {
-  height: 150px;
+  height: 100px;
+  margin-top: 5%;
 }
